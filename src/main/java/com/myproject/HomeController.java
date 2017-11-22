@@ -1,16 +1,13 @@
 package com.myproject;
 
+import java.time.LocalDateTime;
+
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.time.LocalDateTime;
-
-/**
- * @author Davor Sauer
- */
 @Controller
 public class HomeController {
 
@@ -36,10 +33,10 @@ public class HomeController {
      * Add following method after classes -t task and after bootrun task to see if spring loaded shows the new endpoint
      * You should see error  org.springsource.loaded.ReloadableType   : Unable to find regeneration methods for cglib proxies - proxies will be out of date for this type
      */
-    @RequestMapping(value = "/afterBootRun", produces = { MediaType.APPLICATION_JSON_VALUE })
-    @ResponseBody
-    public String helloWorldAfterRunStarts() {
-        return "Hello World after BootRun with SpringLoaded!";
-    }
+//    @RequestMapping(value = "/afterBootRun", produces = { MediaType.APPLICATION_JSON_VALUE })
+//    @ResponseBody
+//    public String helloWorldAfterRunStarts() {
+//        return "Hello World after BootRun with SpringLoaded!";
+//    }
 
 }
