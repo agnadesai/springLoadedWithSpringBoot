@@ -1,4 +1,4 @@
-# This is an example project to show the cglib proxies error happens when using springboot with spring loaded #
+# This is an example project to show the cglib proxies error when using springboot with spring loaded #
 1. Run gradle task classes -t
 2. Run bootRun task
 
