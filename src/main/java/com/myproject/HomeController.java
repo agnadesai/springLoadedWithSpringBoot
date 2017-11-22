@@ -36,10 +36,10 @@ public class HomeController {
      * Add following method after classes -t task and after bootrun task to see if spring loaded shows the new endpoint
      * You should see error  org.springsource.loaded.ReloadableType   : Unable to find regeneration methods for cglib proxies - proxies will be out of date for this type
      */
-    @RequestMapping(value = "/afterBootRun", produces = { MediaType.APPLICATION_JSON_VALUE })
-    @ResponseBody
-    public String helloWorldAfterRunStarts() {
-        return "Hello World after BootRun with SpringLoaded!";
-    }
+//    @RequestMapping(value = "/afterBootRun", produces = { MediaType.APPLICATION_JSON_VALUE })
+//    @ResponseBody
+//    public String helloWorldAfterRunStarts() {
+//        return "Hello World after BootRun with SpringLoaded!";
+//    }
 
 }
