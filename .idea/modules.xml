@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootApp.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootApp_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootApp_main.iml" group="SpringBootApp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringBootApp_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringBootApp_test.iml" group="SpringBootApp" />
+    </modules>
+  </component>
+</project>
